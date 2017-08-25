@@ -1,28 +1,41 @@
 <!Doctype html>
 
-<html lang="en" ng-app="sampleApp">
+<html lang="en" ng-app="noteApp">
 
 <head>
 	<meta charset="UTF-8">
-	<title>Note taking app</title>	
+	<title>Note App</title>
 	<link rel="stylesheet" type="text/css" href="/css/app.css">
 	<link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="/css/bootstrap-theme.css">
 </head>
 <body>
-	<h1>Welcome</h1>
 	<div class="container">
-		<div class="row">
-			<h2></h2>
-		</div>
+			<h1>Hello World</h1>
+			<ng-view></ng-view>
 	</div>
 
+<!-- vendor -->
 <script type="text/javascript" src="/lib/jquery-3.2.1.js"></script>
-<script type="text/javascript" src="/lib/underscore-1.4.4.min.js"></script>
-<script type="text/javascript" src="/lib/angular/angular.js"></script>
-<script type="text/javascript" src="/lib/angular/angular-route.js"></script>
-<script type="text/javascript" src="/lib/angular/angular-resource.js"></script>
-<script type="text/javascript" src="/js/app.js"></script>
+<script type="text/javascript" src="/lib/angular.js"></script>
+<script type="text/javascript" src="/lib/angular-route.js"></script>
+<script type="text/javascript" src="/lib/angular-resource.js"></script>
 <script type="text/javascript" src="/lib/bootstrap.js"></script>
+
+<!-- App -->
+<script type="text/javascript" src="/js/app.js"></script>
+<script type="text/javascript" src="/js/routes.js"></script>
+
+<!-- Directives -->
+
+<!-- Controllers -->
+<script	src="/js/controllers/NotesController.js"></script>
+<script	src="/js/controllers/NotesCreateController.js"></script>
+<script	src="/js/controllers/NotesShowController.js"></script>
+<script	src="/js/controllers/NotesEditController.js"></script>
+
+<!-- Services -->
+<script	src="/js/services/notesData.js"></script>
 
 </body>
 </html>

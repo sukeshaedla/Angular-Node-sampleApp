@@ -1,0 +1,8 @@
+{
+  "id": 1,
+  "userId": 13,
+  "categoryId": 8,
+  "description": "NgModel Best Practice",
+  "content": "Always use dot syntax when using NgModel! Treat Scope as read-only in templates & write-only in controllers. The purpose of the scope is to refer to the model, not be the model. The model is your javascript objects. When doing bidirectional binding with ngModel make sure you don't bind directly to the scope properties. This will cause unexpected behavior in the child scopes.",
+  "title": "NgModel BP"
+}

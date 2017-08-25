@@ -1,0 +1,8 @@
+{
+  "id": 3,
+  "userId": 1,
+  "categoryId": 6,
+  "description": "Clarify the confusion between Service the term and `service` the angular method and to explain the 5 different Service recipes in Angular.",
+  "title": "Service Service? Really Angular?",
+  "content": "There are 5 Recipes used to create a Service. One of those *was* unfortunately named, Service. So yes, amongst its fellow peers such as Provider Service and Factory Service, there is in fact a Service Service."
+}

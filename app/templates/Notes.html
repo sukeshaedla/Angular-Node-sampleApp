@@ -1,0 +1,8 @@
+<h1>My Notes</h1>
+
+<div class="row">
+  <div class="note col-xs-6" ng-repeat="notes in notesList">
+    <h3><a ng-href="#!/notes/{{notes.id}}">{{notes.title}}</a></h3>
+    <p>{{notes.description}}</p>
+  </div>
+</div>

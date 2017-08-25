@@ -1,0 +1,8 @@
+{
+  "id": 2,
+  "userId": 2,
+  "categoryId": 3,
+  "description": "Markers on a **DOM element** that tell AngularJS's HTML compiler `$compile` to attach a specified behavior to that DOM element.",
+  "title": "Directives",
+  "content": "Markers on a **DOM element**"
+}
